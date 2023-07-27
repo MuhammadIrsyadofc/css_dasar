@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class target</title>
+    <style>
+.p1:target{
+    background-color: blue;
+    transition: all 1s ease 0s;
+}
+.p2:target{
+    background-color: burlywood;
+}
+.p3:target{
+    background-color: orange;
+}
+.p4:target{
+    background-color: seagreen;
+}
+.p5:target{
+    background-color: slategray;
+}
+.p6:target{
+    background-color: olive;
+}
+
+    </style>
+</head>
+<body>
+
+<ul>
+    <li><a href="#p1">aktifkan p1</a></li>
+    <li><a href="#p2">aktifkan p2</a></li>
+    <li><a href="#p3">aktifkan p3</a></li>
+    <li><a href="#p4">aktifkan p4</a></li>
+    <li><a href="#p5">aktifkan p5</a></li>
+    <li><a href="#p6">aktifkan p6</a></li>
+</ul>
+
+
+<p id="p1" class="p1">p1 (ini warna blue)</p>
+<p id="p2" class="p2">p2 (ini warna burlywood)</p>
+<p id="p3" class="p3">p3 (ini warna orange)</p>
+<p id="p4" class="p4">p4 (ini warna seagreen)</p>
+<p id="p5" class="p5">p5 (ini warna slategrey)</p>
+<p id="p6" class="p6">p6 (ini warna olive)</p>
+
+
+</body>
+</html>
